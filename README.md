@@ -10,5 +10,5 @@ https://docs.microsoft.com/en-us/azure/openshift/
 
 1. First please login to Azure with command line as the install process uses 'az' at the later stage:
 
-``` az login --use-device-code
-To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code XXXXXXXX to authenticate.```
+``` az login --use-device-code ```
+To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code XXXXXXXX to authenticate.
