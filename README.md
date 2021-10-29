@@ -27,7 +27,7 @@ Finally just run:
 ./create_cluster.sh
 ```
 
-finally you should to receive your Red Hat OpenShift console url and login credentials like the following:
+at the end of the script run you should to receive your Red Hat OpenShift console url and login credentials like the following:
 
 ```
 To access Red Hat OpenShift console plase direct you browser to the following url:
@@ -47,5 +47,6 @@ once you are done with your cluster simply delete it:
 ```
 ./delete_cluster.sh
 ```
+
 Have fun with Azure Red Hat OpenShift!
 
