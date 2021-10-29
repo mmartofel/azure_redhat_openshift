@@ -60,9 +60,9 @@ az aro create \
   --resource-group $RESOURCEGROUP \
   --name $CLUSTER \
   --vnet aro-vnet \
-  --master-vm-size Standard_D8s_v3 \
-  --worker-vm-size Standard_D8s_v3 \
-  --worker-count ${WORKER_COUNT} \
+  --master-vm-size ${MASTER_SIZE}  \
+  --worker-vm-size ${WORKER_SIZE}  \
+  --worker-count   ${WORKER_COUNT} \
   --master-subnet master-subnet \
   --worker-subnet worker-subnet \
   --pull-secret @pull-secret.txt
