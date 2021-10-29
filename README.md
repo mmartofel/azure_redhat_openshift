@@ -21,6 +21,9 @@ Total Regional vCPUs                      0               50
 Standard DSv3 Family vCPUs                0               50
 ```
 at the create_cluster.sh script we set smallest available vm's for masters and workers (as of today they are Standard_D8s_v3 and Standard_D4s_v3 accordingly). That makes your cluster to consume 36 vCPU (plus another 4 during installation only for bootstrap vm).
+For the list of supported Azure vm's please head to:
+
+https://docs.microsoft.com/en-us/azure/openshift/support-policies-v4
 
 Finally just run:
 ```
