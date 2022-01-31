@@ -1,23 +1,12 @@
+#!/bin/bash
+
 # Azure Red Hat OpenShift cluster creation script.
 # Marek Martofel - Red Hat Inc.
 
-# Customize three following lines to choose your Azure region, resource group name and ARO cluster name
+# Source the environment variables
+source ./environment
 
-LOCATION=eastus                 # the location of your cluster
-RESOURCEGROUP=aro-rg            # the name of the resource group where you want to create your cluster
-CLUSTER=arotest                 # the name of your cluster
 
-# Customize three following lines to choose your master and worker vm type and worker count
-#
-# Check:
-#
-# https://docs.microsoft.com/en-us/azure/openshift/support-policies-v4
-#
-# for supported vm sizes for masters and workers
-
-MASTER_SIZE=Standard_D8s_v3
-WORKER_SIZE=Standard_D4s_v3
-WORKER_COUNT=3
 
 echo
 echo "Your ARO cluster will be created at the following region: " ${LOCATION}
