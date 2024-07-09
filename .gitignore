@@ -1,2 +1,3 @@
 # Do not store your pull secret at Git
 pull-secret.txt
+login.txt
