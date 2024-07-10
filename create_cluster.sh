@@ -15,8 +15,8 @@ CLUSTER=arotest                 # the name of your cluster
 #
 # for supported vm sizes for masters and workers
 
-MASTER_SIZE=Standard_D8s_v3
-WORKER_SIZE=Standard_D4s_v3
+MASTER_SIZE=Standard_D8s_v5
+WORKER_SIZE=Standard_D8s_v5
 WORKER_COUNT=3
 
 echo
